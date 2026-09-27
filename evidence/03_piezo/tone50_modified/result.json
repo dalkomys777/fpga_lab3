@@ -1,0 +1,11 @@
+{
+  "status": "FAILED",
+  "run": "run-9d8eb0297ffb4d938ab021aa6b7ce100",
+  "functional_correctness": "NOT_ASSESSED",
+  "inputs_sha256": {
+    "simulation.json": "135e08bbf59322706f325c556917d6202b189fdeebce8e12d4af5510ee971f69",
+    "src/lab3_piezo.v": "2da98162f7ffe1939cbcff61ec6935590f07e1a5defcf0184cac7de5b49bb455",
+    "sim/tb_piezo.sv": "7a9a3df1fd729a419fd9d36488f32fc458628cfc11f782910837ac90ef4dbbb3"
+  },
+  "error": "종료 코드 1: C:\\Users\\young\\Documents\\Codex\\2026-09-27\\https-chatgpt-com-share-6ab8d073-f584\\outputs\\fpga_lab3\\circuits\\03_piezo\\build\\sim\\run-9d8eb0297ffb4d938ab021aa6b7ce100\\simulation.log"
+}

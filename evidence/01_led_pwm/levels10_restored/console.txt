@@ -1,0 +1,14 @@
+RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\src -I C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\sim -s tb_led_pwm -o C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\build\sim\run-dcf01700062244ab966d38f48cb203a6\sim.vvp C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\src\button_onepulse.v C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\src\pwm_channel.v C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\src\lab3_led_pwm.v C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\sim\tb_led_pwm.sv
+
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\build\sim\run-dcf01700062244ab966d38f48cb203a6\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+CHECK expected_high=0 observed_high=0 time=251000
+CHECK expected_high=3 observed_high=3 time=1251000
+CHECK expected_high=10 observed_high=10 time=3251000
+CHECK expected_high=0 observed_high=0 time=3851000
+LAB3_LED_PWM_PASS checks=4
+C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\sim\tb_led_pwm.sv:32: $finish called at 3851000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\build\sim\wave.vcd
+

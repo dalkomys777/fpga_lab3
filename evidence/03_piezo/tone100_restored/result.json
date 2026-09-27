@@ -1,0 +1,11 @@
+{
+  "status": "SIMULATED",
+  "run": "run-3a28606462e34b988a6667bf4edec792",
+  "functional_correctness": "NOT_ASSESSED",
+  "inputs_sha256": {
+    "simulation.json": "135e08bbf59322706f325c556917d6202b189fdeebce8e12d4af5510ee971f69",
+    "src/lab3_piezo.v": "2da98162f7ffe1939cbcff61ec6935590f07e1a5defcf0184cac7de5b49bb455",
+    "sim/tb_piezo.sv": "8feffdf857b45b6d4d9da7554611b056948ea0ff5d77889ecd815d03e82c58f9"
+  },
+  "wave_sha256": "aaa70b60e76ac3fba29bd63b48fd7b72cf37135a81128d706f7f4970a2612d23"
+}

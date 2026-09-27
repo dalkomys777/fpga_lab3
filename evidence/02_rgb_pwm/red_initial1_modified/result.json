@@ -1,0 +1,13 @@
+{
+  "status": "FAILED",
+  "run": "run-08e3fb36974643aab861a50fde3e9580",
+  "functional_correctness": "NOT_ASSESSED",
+  "inputs_sha256": {
+    "simulation.json": "9375486f1fdef4963a3389bc0b19d20845d2c1d42eafc349ea8e1bd5e6a6230b",
+    "src/button_onepulse.v": "1a0a366f13f15b81df06b90764943610d8f30267382cc2e46e8c2a5f252c3f2e",
+    "src/pwm_channel.v": "06a3690eb86e3d6d2133c268e5377896ce7d189438fcb0b8524aa5ef1ca8a319",
+    "src/lab3_rgb_pwm.v": "fb14c44cfdfb5bdbf8182c2d90daeec19586f7b76df931b425958886cdca2ba1",
+    "sim/tb_rgb_pwm.sv": "d907ac2d3af8d7ec6d0678d486cd482b65c6e338fdbffe24db4435aa9f88f686"
+  },
+  "error": "종료 코드 1: C:\\Users\\young\\Documents\\Codex\\2026-09-27\\https-chatgpt-com-share-6ab8d073-f584\\outputs\\fpga_lab3\\circuits\\02_rgb_pwm\\build\\sim\\run-08e3fb36974643aab861a50fde3e9580\\simulation.log"
+}

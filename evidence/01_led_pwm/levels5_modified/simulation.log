@@ -1,0 +1,4 @@
+VCD info: dumpfile wave.vcd opened for output.
+CHECK expected_high=0 observed_high=0 time=251000
+FATAL: C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\01_led_pwm\sim\tb_led_pwm.sv:20: level=3 high=6
+       Time: 1251000  Scope: tb_led_pwm.expect_level

@@ -1,0 +1,43 @@
+VCD info: dumpfile wave.vcd opened for output.
+BYTE index=0 rs=0 data=38 time=310000
+BYTE index=1 rs=0 data=38 time=510000
+BYTE index=2 rs=0 data=38 time=710000
+BYTE index=3 rs=0 data=0c time=910000
+BYTE index=4 rs=0 data=06 time=1110000
+BYTE index=5 rs=0 data=01 time=1310000
+BYTE index=6 rs=0 data=80 time=1550000
+BYTE index=7 rs=1 data=46 time=1750000
+BYTE index=8 rs=1 data=50 time=1950000
+BYTE index=9 rs=1 data=47 time=2150000
+BYTE index=10 rs=1 data=41 time=2350000
+BYTE index=11 rs=1 data=20 time=2550000
+BYTE index=12 rs=1 data=4c time=2750000
+BYTE index=13 rs=1 data=41 time=2950000
+BYTE index=14 rs=1 data=42 time=3150000
+BYTE index=15 rs=1 data=33 time=3350000
+BYTE index=16 rs=1 data=20 time=3550000
+BYTE index=17 rs=1 data=20 time=3750000
+BYTE index=18 rs=1 data=20 time=3950000
+BYTE index=19 rs=1 data=20 time=4150000
+BYTE index=20 rs=1 data=20 time=4350000
+BYTE index=21 rs=1 data=20 time=4550000
+BYTE index=22 rs=1 data=20 time=4750000
+BYTE index=23 rs=0 data=c0 time=4950000
+BYTE index=24 rs=1 data=4c time=5150000
+BYTE index=25 rs=1 data=43 time=5350000
+BYTE index=26 rs=1 data=44 time=5550000
+BYTE index=27 rs=1 data=20 time=5750000
+BYTE index=28 rs=1 data=43 time=5950000
+BYTE index=29 rs=1 data=4f time=6150000
+BYTE index=30 rs=1 data=4e time=6350000
+BYTE index=31 rs=1 data=54 time=6550000
+BYTE index=32 rs=1 data=52 time=6750000
+BYTE index=33 rs=1 data=4f time=6950000
+BYTE index=34 rs=1 data=4c time=7150000
+BYTE index=35 rs=1 data=4c time=7350000
+BYTE index=36 rs=1 data=45 time=7550000
+BYTE index=37 rs=1 data=52 time=7750000
+BYTE index=38 rs=1 data=20 time=7950000
+BYTE index=39 rs=1 data=20 time=8150000
+LAB3_LCD_PASS bytes=40
+C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\06_character_lcd\sim\tb_character_lcd.sv:32: $finish called at 8150000 (1ps)

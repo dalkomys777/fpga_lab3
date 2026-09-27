@@ -1,0 +1,13 @@
+{
+  "status": "FAILED",
+  "run": "run-7086823e40a345a495f8f4461431889e",
+  "functional_correctness": "NOT_ASSESSED",
+  "inputs_sha256": {
+    "simulation.json": "2eff4a0f6e14e557d0523b7b3d09d6f1f5f835d381745177d56e634a1ab6cf95",
+    "src/button_onepulse.v": "1a0a366f13f15b81df06b90764943610d8f30267382cc2e46e8c2a5f252c3f2e",
+    "src/pwm_channel.v": "06a3690eb86e3d6d2133c268e5377896ce7d189438fcb0b8524aa5ef1ca8a319",
+    "src/lab3_led_pwm.v": "4bface2cddbce33de1772ff4095fecd6b29c787f414574a735ccbf7fe524b169",
+    "sim/tb_led_pwm.sv": "808bb2197c23ab3c1a612be01c901abd1fbfc555ff506566732e44131d260aa6"
+  },
+  "error": "종료 코드 1: C:\\Users\\young\\Documents\\Codex\\2026-09-27\\https-chatgpt-com-share-6ab8d073-f584\\outputs\\fpga_lab3\\circuits\\01_led_pwm\\build\\sim\\run-7086823e40a345a495f8f4461431889e\\simulation.log"
+}

@@ -1,0 +1,8 @@
+VCD info: dumpfile wave.vcd opened for output.
+CHECK number=3 clock=00:00 time=40000
+CHECK number=4 clock=00:10 time=431000
+CHECK number=5 clock=01:00 time=2431000
+CHECK number=6 clock=59:59 time=143991000
+CHECK number=7 clock=00:00 time=144031000
+LAB3_MMSS_PASS checks=7
+C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\05_mmss_clock\sim\tb_mmss_counter.sv:25: $finish called at 144031000 (1ps)

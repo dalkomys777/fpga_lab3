@@ -1,0 +1,5 @@
+VCD info: dumpfile wave.vcd opened for output.
+CHECK expected=2,5,8 observed=2,5,8 time=4251000
+CHECK expected=3,5,8 observed=3,5,8 time=4851000
+LAB3_RGB_PWM_PASS checks=2
+C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\sim\tb_rgb_pwm.sv:27: $finish called at 4851000 (1ps)

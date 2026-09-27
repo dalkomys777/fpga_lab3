@@ -1,0 +1,553 @@
+{
+  "folders": [
+    {
+      "name": "LAB3",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "files.exclude": {
+      "**/__pycache__": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "hudson-river-trading.vscode-slang",
+      "lramseyer.vaporview",
+      "tomoki1207.pdf"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "01_led_pwm - 01 Check tools",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "check"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/01_led_pwm"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "01_led_pwm - 02 Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/01_led_pwm"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "01_led_pwm - 03 Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/01_led_pwm"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "02_rgb_pwm - 01 Check tools",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "check"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/02_rgb_pwm"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "02_rgb_pwm - 02 Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/02_rgb_pwm"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "02_rgb_pwm - 03 Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/02_rgb_pwm"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "03_piezo - 01 Check tools",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "check"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/03_piezo"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "03_piezo - 02 Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/03_piezo"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "03_piezo - 03 Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/03_piezo"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "04_stepper - 01 Check tools",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "check"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/04_stepper"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "04_stepper - 02 Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/04_stepper"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "04_stepper - 03 Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/04_stepper"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "05_mmss_clock - 01 Check tools",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "check"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/05_mmss_clock"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "05_mmss_clock - 02 Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/05_mmss_clock"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "05_mmss_clock - 03 Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/05_mmss_clock"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "06_character_lcd - 01 Check tools",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "check"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/06_character_lcd"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "06_character_lcd - 02 Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/06_character_lcd"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "06_character_lcd - 03 Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/06_character_lcd"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "07_uart_echo - 01 Check tools",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "check"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/07_uart_echo"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "07_uart_echo - 02 Simulate",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "simulate"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/07_uart_echo"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      },
+      {
+        "label": "07_uart_echo - 03 Open waveform",
+        "type": "process",
+        "command": "python3",
+        "windows": {
+          "command": "C:/Users/young/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+        },
+        "args": [
+          "tools/fpga_lab.py",
+          "wave"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:LAB3}/circuits/07_uart_echo"
+        },
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "dedicated",
+          "clear": true
+        }
+      }
+    ]
+  }
+}
