@@ -1,8 +1,0 @@
-VCD info: dumpfile wave.vcd opened for output.
-EDGE cycle=5 piezo=1 time=151000
-EDGE cycle=10 piezo=0 time=251000
-EDGE cycle=15 piezo=1 time=351000
-EDGE cycle=20 piezo=0 time=451000
-EDGE cycle=25 piezo=1 time=551000
-LAB3_PIEZO_PASS edges=5
-C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\sim\tb_piezo.sv:24: $finish called at 551000 (1ps)

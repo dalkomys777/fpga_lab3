@@ -1,6 +1,0 @@
-VCD info: dumpfile wave.vcd opened for output.
-CHECK number=1 expected=41 echo=41 led=41 time=3230000
-CHECK number=2 expected=5a echo=5a led=5a time=6530000
-CHECK number=3 expected=0a echo=0a led=0a time=9830000
-LAB3_UART_ECHO_PASS checks=3
-C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\07_uart_echo\sim\tb_uart_echo.sv:35: $finish called at 9990000 (1ps)

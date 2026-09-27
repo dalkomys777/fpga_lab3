@@ -1,9 +1,0 @@
-RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\src -I C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\sim -s tb_piezo -o C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\build\sim\run-9d8eb0297ffb4d938ab021aa6b7ce100\sim.vvp C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\src\lab3_piezo.v C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\sim\tb_piezo.sv
-
-RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\build\sim\run-9d8eb0297ffb4d938ab021aa6b7ce100\sim.vvp
-VCD info: dumpfile wave.vcd opened for output.
-FATAL: C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\sim\tb_piezo.sv:15: cycle=5 expected=1 piezo=0
-       Time: 151000  Scope: tb_piezo
-
-
-ERROR: ���� �ڵ� 1: C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\03_piezo\build\sim\run-9d8eb0297ffb4d938ab021aa6b7ce100\simulation.log

@@ -1,9 +1,0 @@
-RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\src -I C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\sim -s tb_rgb_pwm -o C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\build\sim\run-08e3fb36974643aab861a50fde3e9580\sim.vvp C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\src\button_onepulse.v C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\src\pwm_channel.v C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\src\lab3_rgb_pwm.v C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\sim\tb_rgb_pwm.sv
-
-RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\build\sim\run-08e3fb36974643aab861a50fde3e9580\sim.vvp
-VCD info: dumpfile wave.vcd opened for output.
-FATAL: C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\sim\tb_rgb_pwm.sv:18: rgb high=3,5,8
-       Time: 4251000  Scope: tb_rgb_pwm.measure
-
-
-ERROR: ���� �ڵ� 1: C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\build\sim\run-08e3fb36974643aab861a50fde3e9580\simulation.log

@@ -1,3 +1,0 @@
-VCD info: dumpfile wave.vcd opened for output.
-FATAL: C:\Users\young\Documents\Codex\2026-09-27\https-chatgpt-com-share-6ab8d073-f584\outputs\fpga_lab3\circuits\02_rgb_pwm\sim\tb_rgb_pwm.sv:18: rgb high=3,5,8
-       Time: 4251000  Scope: tb_rgb_pwm.measure
